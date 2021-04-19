@@ -2,10 +2,15 @@ body{
     text-align: center;
     background-image: url(./images/keizersgracht-canal-in-amsterdam.jpg);
     background-size: cover;
+    background-position-y: top;
+    background-repeat: no-repeat;
+}
+.contenu{
+margin-top: 20%;
 }
 /* ------------------------------header----------------------- */
 .introcontact{
-    margin-top: 5%;
+    padding: 5%;
 }
 .introcontact h1{
     color: palevioletred;
@@ -30,5 +35,8 @@ body{
 }
 .rondflex a, p, h5{
     color: white;
+}
+.rondflex a:hover{
+    color: palevioletred;
 }
 /* ----------------------------------------footer-------------------------- */
